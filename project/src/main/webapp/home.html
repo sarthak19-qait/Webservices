@@ -1,0 +1,58 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link href="main.css" type="text/css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="main.js"></script>
+</head>
+<body>
+<div class="main-home">
+<header>
+<div class="logo">
+<h1>Sarthak Saxena</h1>
+</div>
+<div class="header-links">
+<span class="hlink"><a href="home.html">Home</a></span>
+<span class="hlink"><a href="profile.html">Profile</a></span>
+<span class="hlink"><a href="inbox.html">Inbox</a></span>
+<span class="hlink"><a href="index.html">Logout</a></span>
+</div>
+</header>
+
+<main id="main">
+<div class="heading1"><h3>Welcome....!</h3></div>
+<div class="heading2"><h1>IT'S NICE TO MEET YOU</h1></div>
+<div class="comment">
+<div class="comment">
+<button type="submit" class="btn btn-success" id="addbutton">Add Comment</button>
+
+</div>
+<br>
+<div class="comment">
+<button type="submit" class="btn btn-primary" id="getbutton">Get Comments By User</button>
+</div>
+<br>
+<div class="comment">
+<form action="webapi/comment/getallcomments" method="get">
+<button type="submit" class="btn btn-danger" id="getallbutton">Get All Comments</button>
+
+</form>
+</div>
+</div>
+
+</main>
+
+<footer>
+<p>
+ Created By Sarthak Saxena.
+
+</p>
+
+</footer>
+
+</div>
+
+
+</body>
+</html>
